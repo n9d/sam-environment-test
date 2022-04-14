@@ -13,7 +13,7 @@ cd sam-environment-test
 
 ```sh
 sam build
-sam local start-api -n env.json
+FOO_COMPOSE=set_console sam local start-api -n env.json
 ```
 
 - 別ターミナルで
