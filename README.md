@@ -26,7 +26,9 @@ curl http://localhost:3000/hello
 
 ```sh
 docker-compose up
+docker-compose exec sam sam build
 ```
+
 
 - 別ターミナルで
 
